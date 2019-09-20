@@ -176,7 +176,7 @@ $(document).ready(function() {
 				<h2>Familia <a href="index.php?view=families"><i class="fa fa-recycle pull-right"></i></a></h2>
 
 					<fieldset id="form_disabled" disabled="disabled">
-						<form id="my_form" action="index.php?view=families&task=saveItem" method="post">
+						<form id="afiForm" name="afiForm" action="index.php?view=families&task=saveItem" method="post">
 							<input type="hidden" name="id" id="familia_id" value="" />
 							<?= $html->getListField('familia', 'idSalo', $user->cf_salo, $model->getSalons(), 'nom', 'id'); ?>
 							<?= $html->getTextField('familia', 'descripcio'); ?>

@@ -166,7 +166,7 @@ $(document).ready(function() {
 		var pageURL = domain+'?view='+view+'&task=getItemById&id='+items[0]+'&mode=raw';
 		var index = [];
 
-		var elements = document.getElementById("my_form").elements;
+		var elements = document.getElementById("afiForm").elements;
 		for (var i = 0; i < elements.length; i++) {
 			if (elements[i].type !== "hidden" && elements[i].type !== "submit"){
 				index.push(i);
@@ -177,7 +177,7 @@ $(document).ready(function() {
 			index.forEach(i => {
 				atribute = elements[i].id.split("_");
 				$('#'+elements[i].id).val(json.atribute[1]);
-				console.log(atribute[1]);
+				console.log(atribute[1].id);
 			})
 		});
 

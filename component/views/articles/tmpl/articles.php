@@ -220,7 +220,7 @@ $(document).ready(function() {
 					<h2>Article <a href="index.php?view=articles"><i class="fa fa-recycle pull-right"></i></a></h2>					
 
 					<fieldset id="form_disabled" disabled="disabled">
-						<form action="index.php?view=articles&task=saveItem" method="post">	
+						<form id="afiForm" name="afiForm" action="index.php?view=articles&task=saveItem" method="post">	
 							<input type="hidden" name="id" id="article_id" value="" />
 							<input type="hidden" id="article_percIVA" value="" />	
 							<div class="col-md-6">

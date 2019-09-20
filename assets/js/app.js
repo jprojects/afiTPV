@@ -176,16 +176,12 @@ $(document).ready(function() {
 		$.getJSON(pageURL, function(json){
 			index.forEach(i => {
 				atribute = elements[i].id.split("_");
-				$('#'+elements[i].id).val(json.atribute[1]);
-				console.log(atribute[1].id);
+				$('#'+elements[i].id).val(json[atribute[1]]);
 			})
 		});
 
-		
-
 		document.getElementById("form_disabled").removeAttribute("disabled");
 		document.getElementById("form_button").innerHTML="Desa";
-		//Fer patro a la vista perque sigui generica
 	 });
 
 	$('.order').click(function(e) {

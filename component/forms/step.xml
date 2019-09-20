@@ -1,0 +1,22 @@
+<form>
+    <field name="cf_salo">
+        <type>list</type>
+        <name>cf_salo</name>
+        <clase>input-lg</clase>
+        <id>cf_salo</id>
+        <label></label>
+        <classe>input-lg</classe>
+        <disabled>false</disabled>
+        <option value="">CW_LOGIN_CF_SALO</option>
+    </field>
+    <field name="cf_terminal">
+        <type>list</type>
+        <name>cf_terminal</name>
+        <clase>input-lg</clase>
+        <id>cf_salo</id>
+        <label></label>
+        <classe>input-lg</classe>
+        <disabled>false</disabled>
+        <option value="">CW_LOGIN_CF_TERMINAL</option>
+    </field>
+</form>

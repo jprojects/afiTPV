@@ -1,0 +1,20 @@
+<form>
+    <field name="usergroup">
+        <type>text</type>
+        <name>usergroup</name>
+        <id>groupname</id>
+        <label>CW_USERGROUP_LABEL</label>
+        <message>CW_USERGROUP_MSG</message>
+        <placeholder>CW_USERGROUP</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="auth_token">
+        <type>hidden</type>
+        <name>auth_token</name>
+        <id>auth_token</id>
+        <message></message>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+</form>

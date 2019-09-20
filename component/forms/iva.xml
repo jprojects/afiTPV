@@ -1,0 +1,11 @@
+<form>
+	<field name="percIVA">
+        <type>text</type>
+        <name>percIVA</name>
+        <id>iva_percIVA</id>
+        <label>percIVA</label>
+        <message></message>
+        <placeholder>percIVA</placeholder>
+        <disabled>false</disabled>
+    </field>
+</form>

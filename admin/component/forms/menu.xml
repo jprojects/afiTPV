@@ -1,0 +1,75 @@
+<form>
+    <field name="titol">
+        <type>text</type>
+        <name>titol</name>
+        <id>titol</id>
+        <label>CW_MENU_TITLE_LABEL</label>
+        <message>CW_MENU_TITLE_MSG</message>
+        <placeholder>CW_MENU_TITLE</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="url">
+        <type>text</type>
+        <name>url</name>
+        <id>url</id>
+        <label>CW_MENU_URL_LABEL</label>
+        <message>CW_MENU_URL_MSG</message>
+        <placeholder>CW_MENU_URL</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="slug">
+        <type>text</type>
+        <name>slug</name>
+        <id>slug</id>
+        <label>CW_MENU_SLUG_LABEL</label>
+        <message>CW_MENU_SLUG_MSG</message>
+        <placeholder>CW_MENU_SLUG</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="level">
+        <type>list</type>
+        <name>level</name>
+        <id>level</id>
+        <label>CW_MENU_LEVEL_LABEL</label>
+        <message>CW_MENU_LEVEL_MSG</message>
+        <placeholder>CW_MENU_LEVEL</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+        <option>Selecciona un nivell</option>
+        <option value="0">Public</option>
+        <option value="1">Registered</option>
+    </field>
+    <field name="lang">
+        <type>text</type>
+        <name>lang</name>
+        <id>lang</id>
+        <label>CW_MENU_LANG_LABEL</label>
+        <message>CW_MENU_LANG_MSG</message>
+        <placeholder>CW_MENU_LANG</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="create">
+        <type>radio</type>
+        <name>create</name>
+        <id>create</id>
+        <label>Vols crear la vista?</label>
+        <message></message>
+        <onchange></onchange>
+        <disabled>false</disabled>
+        <option value="0">No</option>
+        <option value="1">Sí</option>
+    </field>
+    <field name="auth_token">
+        <type>hidden</type>
+        <name>auth_token</name>
+        <id>auth_token</id>
+        <message></message>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+</form>

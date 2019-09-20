@@ -1,0 +1,190 @@
+<form>
+    <field name="site">
+        <type>text</type>
+        <name>site</name>
+        <id>site</id>
+        <label>Site</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="offline">
+        <type>radio</type>
+        <name>offline</name>
+        <id>offline</id>
+        <label>Offline</label>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+	<option value="0">No</option>
+	<option value="1">Si</option>
+    </field>
+    <field name="debug">
+        <type>radio</type>
+        <name>debug</name>
+        <id>debug</id>
+        <label>Debug mode</label>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+	<option value="0">No</option>
+	<option value="1">Si</option>
+    </field>
+    <field name="sitename">
+        <type>text</type>
+        <name>sitename</name>
+        <id>sitename</id>
+        <label>Sitename</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="description">
+        <type>text</type>
+        <name>description</name>
+        <id>description</id>
+        <label>Description</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="email">
+        <type>text</type>
+        <name>email</name>
+        <id>email</id>
+        <label>Email</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="driver">
+        <type>list</type>
+        <name>driver</name>
+        <id>driver</id>
+        <label>Driver</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+        <option value="sqlsrv">sqlsrv</option>
+	<option value="mysql">mysql</option>
+    </field>
+    <field name="host">
+        <type>text</type>
+        <name>host</name>
+        <id>host</id>
+        <label>Host</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="user">
+        <type>text</type>
+        <name>user</name>
+        <id>user</id>
+        <label>User</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="pass">
+        <type>text</type>
+        <name>pass</name>
+        <id>pass</id>
+        <label>Pass</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="database">
+        <type>text</type>
+        <name>database</name>
+        <id>database</id>
+        <label>Database</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="dbprefix">
+        <type>text</type>
+        <name>dbprefix</name>
+        <id>dbprefix</id>
+        <label>Prefix</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="token_time">
+        <type>text</type>
+        <name>token_time</name>
+        <id>token_time</id>
+        <label>Token time</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="template">
+        <type>text</type>
+        <name>template</name>
+        <id>template</id>
+        <label>Template</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="admin_template">
+        <type>text</type>
+        <name>admin_template</name>
+        <id>admin_template</id>
+        <label>Admin template</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="cookie">
+        <type>text</type>
+        <name>cookie</name>
+        <id>cookie</id>
+        <label>Cookie days</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="admin_mails">
+        <type>radio</type>
+        <name>admin_mails</name>
+        <id>admin_mails</id>
+        <label>Admin mails</label>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+	<option value="0">No</option>
+	<option value="1">Si</option>
+    </field>
+    <field name="inactive">
+        <type>text</type>
+        <name>inactive</name>
+        <id>inactive</id>
+        <label>Session expire</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="domain">
+        <type>text</type>
+        <name>domain</name>
+        <id>domain</id>
+        <label>Domain root</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="log">
+        <type>text</type>
+        <name>log</name>
+        <id>log</id>
+        <label>Log path</label>
+        <message></message>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+</form>

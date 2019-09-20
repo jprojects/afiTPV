@@ -1,0 +1,154 @@
+<form>
+	<field name="idSalo">
+        <type>list</type>
+        <name>idSalo</name>
+        <id>article_idSalo</id>
+        <label>Saló</label>
+        <default></default>
+        <option value="">Saló</option>
+    </field>
+    <field name="idFamilia">
+        <type>list</type>
+        <name>idFamilia</name>
+        <id>article_idfamilia</id>
+        <label>Familia</label>
+        <default></default>
+        <option value="">Familia</option>
+    </field>
+    <field name="idTipusIVA">
+        <type>list</type>
+        <name>idTipusIVA</name>
+        <id>article_idTipusIVA</id>
+        <label>TipusIVA</label>
+        <default></default>
+        <option value="">CW_CHOOSE_OPTION</option>
+    </field>
+    <field name="descripcio">
+        <type>text</type>
+        <name>descripcio</name>
+        <id>article_descripcio</id>
+        <label>descripcio</label>
+        <message></message>
+        <placeholder>descripcio</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="preuIVAInclos">
+        <type>text</type>
+        <name>preuIVAInclos</name>
+        <id>article_preuIVAInclos</id>
+        <label>preuIVAInclos</label>
+        <message></message>
+        <placeholder>preuIVAInclos</placeholder>
+        <disabled>false</disabled>
+    </field>
+	<field name="preuBase">
+        <type>text</type>
+        <name>preuBase</name>
+        <id>article_preuBase</id>
+        <label>preuBase</label>
+        <message></message>
+        <placeholder>preuBase</placeholder>
+        <readonly>true</readonly>
+    </field>
+    <field name="importIVA">
+        <type>text</type>
+        <name>importIVA</name>
+        <id>article_importIVA</id>
+        <label>importIVA</label>
+        <message></message>
+        <placeholder>importIVA</placeholder>
+        <readonly>true</readonly>
+    </field>
+    <field name="codiBarres">
+        <type>text</type>
+        <name>codiBarres</name>
+        <id>article_codiBarres</id>
+        <label>codiBarres</label>
+        <message></message>
+        <placeholder>codiBarres</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="especificat">
+        <type>radio</type>
+        <name>especificat</name>
+        <id>article_especificat</id>
+        <label>Especificat</label>
+        <default>0</default>
+        <disabled>false</disabled>
+        <option value="0">CW_NO</option>
+        <option value="1">CW_YES</option>
+    </field>
+    <field name="servei">
+        <type>list</type>
+        <name>servei</name>
+        <id>article_servei</id>
+        <label>Servei</label>
+        <disabled>false</disabled>
+        <default></default>
+        <option value="">CW_CHOOSE_OPTION</option>
+        <option value="0">CW_NO</option>
+        <option value="1">CW_YES</option>
+    </field>
+    <field name="inventariable">
+        <type>list</type>
+        <name>inventariable</name>
+        <id>article_inventariable</id>
+        <label>Inventariable</label>
+        <disabled>false</disabled>
+        <default>0</default>
+        <option value="">CW_CHOOSE_OPTION</option>
+        <option value="0">CW_NO</option>
+        <option value="1">CW_YES</option>
+    </field>
+    <field name="estoc">
+        <type>text</type>
+        <name>estoc</name>
+        <id>article_estoc</id>
+        <label>Estoc</label>
+        <message></message>
+        <placeholder>Estoc</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="minim">
+        <type>text</type>
+        <name>minim</name>
+        <id>article_minim</id>
+        <label>Mínim</label>
+        <disabled>false</disabled>
+    </field>
+    <field name="preuCompra">
+        <type>text</type>
+        <name>preuCompra</name>
+        <id>article_preuCompra</id>
+        <label>Preu Compra</label>
+        <placeholder>preu Compra</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="percMarge">
+        <type>text</type>
+        <name>percMarge</name>
+        <id>article_percMarge</id>
+        <label>perc Marge</label>
+        <placeholder>perc Marge</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="actiu">
+        <type>radio</type>
+        <name>actiu</name>
+        <id>article_actiu</id>
+        <label>Actiu</label>
+        <default>0</default>
+        <option value="0">CW_NO</option>
+        <option value="1">CW_YES</option>
+    </field>
+    <field name="auth_token">
+        <type>hidden</type>
+        <name>auth_token</name>
+        <id>auth_token</id>
+        <message></message>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+</form>

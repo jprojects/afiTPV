@@ -1,0 +1,157 @@
+<form>
+    <field name="username">
+        <type>text</type>
+        <name>username</name>
+        <id>username</id>
+        <label>CW_SETTINGS_USERNAME_LABEL</label>
+        <message>CW_SETTINGS_USERNAME_MSG</message>
+        <placeholder>GW_SETTINGS_USERNAME</placeholder>
+        <onchange>checkUsername();</onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="email">
+        <type>text</type>
+        <name>email</name>
+        <id>email</id>
+        <label>CW_SETTINGS_EMAIL_LABEL</label>
+        <message>Invalid email format</message>
+        <placeholder>CW_SETTINGS_EMAIL</placeholder>
+        <onchange>checkEmail();</onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="old_password">
+        <type>password</type>
+        <name>old_password</name>
+        <id>old_password</id>
+        <label>CW_SETTINGS_OLD_PASSWORD_LABEL</label>
+        <message></message>
+        <placeholder>CW_SETTINGS_OLD_PASSWORD</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="password">
+        <type>password</type>
+        <name>password</name>
+        <id>password</id>
+        <label>CW_SETTINGS_PASSWORD_LABEL</label>
+        <message></message>
+        <placeholder>CW_SETTINGS_PASSWORD</placeholder>
+        <onchange>checkPassword();</onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="password2">
+        <type>password</type>
+        <name>password2</name>
+        <id>password2</id>
+        <label>CW_SETTINGS_PASSWORD2_LABEL</label>
+        <message></message>
+        <placeholder>CW_SETTINGS_PASSWORD2</placeholder>
+        <onchange>checkPasswordMatch();</onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="language">
+        <type>select</type>
+        <name>language</name>
+        <id>language</id>
+        <label>CW_SETTINGS_LANGUAGE_LABEL</label>
+        <message></message>
+        <onchange></onchange>
+        <disabled>false</disabled>
+            <option value="en-gb">CW_SETTINGS_ENGLISH</option>   
+            <option value="es-es">CW_SETTINGS_SPANISH</option> 
+            <option value="ca-es">CW_SETTINGS_CATALAN</option> 
+    </field>
+    <field name="secretkey">
+        <type>text</type>
+        <name>secretkey</name>
+        <id>secretkey</id>
+        <label>CW_SETTINGS_SECRETKEY_LABEL</label>
+        <message></message>
+        <placeholder>CW_SETTINGS_SECRETKEY</placeholder>
+        <onchange></onchange>
+        <readonly>true</readonly>
+    </field>
+    <field name="cf_salo">
+        <type>list</type>
+        <name>cf_salo</name>
+        <id>cf_salo</id>
+        <label>CW_SETTINGS_SALO_LABEL</label>
+        <message></message>
+        <option value="">CW_LOGIN_CF_SALO</option>
+    </field>
+    <field name="iva_productes">
+        <type>list</type>
+        <name>iva_productes</name>
+        <id>iva_productes</id>
+        <label>CW_SETTINGS_IVA_PRODUCTES_LABEL</label>
+        <message></message>
+        <option value="">CW_CHOOSE_OPTION</option>
+    </field>
+    <field name="iva_serveis">
+        <type>list</type>
+        <name>iva_serveis</name>
+        <id>iva_serveis</id>
+        <label>CW_SETTINGS_IVA_SERVEIS_LABEL</label>
+        <message></message>
+        <option value="">CW_CHOOSE_OPTION</option>
+    </field>
+    <field name="empresa_nom">
+        <type>text</type>
+        <name>empresa_nom</name>
+        <id>empresa_nom</id>
+        <label>CW_SETTINGS_EMPRESA_NOM_LABEL</label>
+        <message></message>
+    </field>
+    <field name="empresa_cif">
+        <type>text</type>
+        <name>empresa_cif</name>
+        <id>empresa_cif</id>
+        <label>CW_SETTINGS_EMPRESA_CIF_LABEL</label>
+        <message></message>
+    </field>
+    <field name="empresa_adreca">
+        <type>text</type>
+        <name>empresa_adreca</name>
+        <id>empresa_adreca</id>
+        <label>CW_SETTINGS_EMPRESA_ADRECA_LABEL</label>
+        <message></message>
+    </field>
+    <field name="empresa_poblacio">
+        <type>text</type>
+        <name>empresa_poblacio</name>
+        <id>empresa_poblacio</id>
+        <label>CW_SETTINGS_EMPRESA_POBLACIO_LABEL</label>
+        <message></message>
+    </field>
+    <field name="empresa_telefon">
+        <type>text</type>
+        <name>empresa_telefon</name>
+        <id>empresa_telefon</id>
+        <label>CW_SETTINGS_EMPRESA_TELEFON_LABEL</label>
+        <message></message>
+    </field>
+    <field name="empresa_cp">
+        <type>text</type>
+        <name>empresa_cp</name>
+        <id>empresa_cp</id>
+        <label>CW_SETTINGS_EMPRESA_CP_LABEL</label>
+        <message></message>
+    </field>
+    <field name="auth_token">
+        <type>hidden</type>
+        <name>auth_token</name>
+        <id>auth_token</id>
+        <message></message>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="submit">
+        <id>btnSubmit</id>
+        <onclick>this.form.submit();</onclick>
+        <size>medium</size>
+        <color>success</color>
+        <value>CW_SAVE</value>
+        <disabled>false</disabled>
+    </field>
+</form>

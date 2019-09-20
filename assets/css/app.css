@@ -1,0 +1,28 @@
+/* Pagination */
+
+.pagination { 
+	width: 100%;
+	text-align: center;
+}
+li.disabled a {
+   pointer-events: none;
+   cursor: default;
+   color: #ccc;
+}
+li.prev, li.next {
+ 	margin: 0 10px;
+}
+
+
+/* Loading */
+
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
+#itemsList .icon {
+	margin-left: 16px;
+	font-size: 20px;
+}

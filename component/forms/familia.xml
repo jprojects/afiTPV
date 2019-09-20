@@ -1,0 +1,49 @@
+<form>
+	<field name="idSalo">
+        <type>list</type>
+        <name>idSalo</name>
+        <id>familia_idSalo</id>
+        <label>Saló</label>
+        <default></default>
+        <option value="">Saló</option>
+    </field>
+    <field name="descripcio">
+        <type>text</type>
+        <name>descripcio</name>
+        <id>familia_descripcio</id>
+        <label>Descripcio</label>
+        <message></message>
+        <placeholder>descripcio</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="ordre">
+        <type>number</type>
+        <name>ordre</name>
+        <id>familia_ordre</id>
+        <label>Ordre</label>
+        <message></message>
+        <placeholder>Ordre</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="serveis">
+        <type>list</type>
+        <name>serveis</name>
+        <id>familia_serveis</id>
+        <label>Serveis</label>
+        <disabled>false</disabled>
+        <default></default>
+        <option value="">CW_CHOOSE_OPTION</option>
+        <option value="0">CW_NO</option>
+        <option value="1">CW_YES</option>
+    </field>
+    <field name="activa">
+        <type>list</type>
+        <name>activa</name>
+        <id>familia_activa</id>
+        <label>Activa</label>
+        <default>0</default>
+        <option value="">CW_CHOOSE_OPTION</option>
+        <option value="0">CW_NO</option>
+        <option value="1">CW_YES</option>
+    </field>
+</form>

@@ -1,0 +1,158 @@
+<form>
+	<field name="idSalo">
+        <type>list</type>
+        <name>idSalo</name>
+        <id>client_idSalo</id>
+        <label>Saló</label>
+        <default></default>
+        <option value="">Saló</option>
+    </field>
+	<field name="NIF">
+        <type>text</type>
+        <name>NIF</name>
+        <id>client_nif</id>
+        <label>NIF</label>
+        <message></message>
+        <placeholder>NIF</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="nom">
+        <type>text</type>
+        <name>nom</name>
+        <id>client_nom</id>
+        <label>Nom</label>
+        <message></message>
+        <placeholder>Nom</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="adreca">
+        <type>text</type>
+        <name>adreca</name>
+        <id>client_adreca</id>
+        <label>Adreça</label>
+        <message></message>
+        <placeholder>Adreça</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="cp">
+        <type>text</type>
+        <name>cp</name>
+        <id>client_cp</id>
+        <label>cp</label>
+        <message></message>
+        <placeholder>Codi postal</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="telefon">
+        <type>text</type>
+        <name>telefon</name>
+        <id>client_telefon</id>
+        <label>Telefon</label>
+        <message></message>
+        <placeholder>Telefon</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="dataNaixement">
+        <type>calendar</type>
+        <name>dataNaixement</name>
+        <id>client_dataNaixement</id>
+        <label>Data naixement</label>
+        <format>YYYY-MM-DD</format>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="mobil">
+        <type>text</type>
+        <name>mobil</name>
+        <id>client_mobil</id>
+        <label>Mòbil</label>
+        <message></message>
+        <placeholder>Mòbil</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="eMail">
+        <type>email</type>
+        <name>eMail</name>
+        <id>client_email</id>
+        <label>Email</label>
+        <message>Format d'email invàlid</message>
+        <placeholder>Email</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="onomastica">
+        <type>calendar</type>
+        <name>onomastica</name>
+        <id>client_onomastica</id>
+        <label>Onomàstica</label>
+        <format>YYYY-MM-DD</format>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="alta">
+        <type>calendar</type>
+        <name>alta</name>
+        <id>client_alta</id>
+        <label>Alta</label>
+        <format>YYYY-MM-DD</format>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="baixa">
+        <type>calendar</type>
+        <name>baixa</name>
+        <id>client_baixa</id>
+        <format>YYYY-MM-DD</format>
+        <label>Baixa</label>
+        <placeholder></placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="sexe">
+        <type>list</type>
+        <name>sexe</name>
+        <id>client_sexe</id>
+        <label>Sexe</label>
+        <default></default>
+        <option value="">Sexe</option>
+        <option value="H">Home</option>
+        <option value="D">Dona</option>
+    </field>
+    <field name="publicitatEmail">
+        <type>list</type>
+        <name>publicitatEmail</name>
+        <id>client_publicitatEmail</id>
+        <label>publicitat Email</label>
+        <default></default>
+        <option value="">publicitat Email</option>
+        <option value="1">Si</option>
+        <option value="0">No</option>
+    </field>
+    <field name="publicitatPostal">
+        <type>list</type>
+        <name>publicitatPostal</name>
+        <id>client_publicitatPostal</id>
+        <label>publicitat Postal</label>
+        <default></default>
+        <option value="">publicitat Postal</option>
+        <option value="1">Si</option>
+        <option value="0">No</option>
+    </field>
+    <field name="observacions">
+        <type>textarea</type>
+        <name>observacions</name>
+        <id>client_observacions</id>
+        <label>Observacions</label>
+        <message></message>
+        <placeholder>Observacions</placeholder>
+        <disabled>false</disabled>
+    </field>
+    <field name="auth_token">
+        <type>hidden</type>
+        <name>auth_token</name>
+        <id>auth_token</id>
+        <message></message>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+</form>

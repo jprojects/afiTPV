@@ -1,0 +1,41 @@
+<form>
+    <field name="email">
+        <type>text</type>
+        <name>email</name>
+        <id>lemail</id>
+        <label></label>
+        <clase>input-lg</clase>
+        <message></message>
+        <placeholder>CW_LOGIN_USERNAME</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="password">
+        <type>password</type>
+        <name>password</name>
+        <id>lpassword</id>
+        <label></label>
+        <clase>input-lg</clase>
+        <message></message>
+        <placeholder>CW_LOGIN_PASSWORD</placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="auth_token">
+        <type>hidden</type>
+        <name>auth_token</name>
+        <id>auth_token</id>
+        <message></message>
+        <placeholder></placeholder>
+        <onchange></onchange>
+        <disabled>false</disabled>
+    </field>
+    <field name="submit">
+        <id>btnLogin</id>
+        <onclick>this.form.submit();</onclick>
+        <clase>btn-block btn-lg</clase>
+        <color>success</color>
+        <value>CW_LOGIN_BTN</value>
+        <disabled>false</disabled>
+    </field>
+</form>

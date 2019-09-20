@@ -1,0 +1,11 @@
+<form>
+    <field name="email">
+        <type>text</type>
+        <name>email</name>
+        <id>email</id>
+        <message>Invalid email format</message>
+        <placeholder>Please provide your E-mail</placeholder>
+        <onchange>checkEmail();</onchange>
+        <disabled>false</disabled>
+    </field>
+</form>
